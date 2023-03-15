@@ -1,0 +1,26 @@
+.qi {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+li {
+  list-style-type: none;
+  border-radius: 10px;
+  border: 1px solid #d7dae6;
+  padding: 10px;
+  margin-bottom: 10px;
+  flex-wrap: wrap;
+  width: 800px;
+}
+.question {
+  font-size: 20px;
+  color: #52606d;
+}
+.answer {
+  color: #9aa5b1;
+  font-size: 17px;
+}
+button {
+  background-color: transparent;
+  border: none;
+}
